@@ -1,0 +1,12 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: review-service
+
+  datasource:
+    url: jdbc:h2:mem:reviews
+    driver-class-name: org.h2.Driver
+    username: penta
+    password: bar
+

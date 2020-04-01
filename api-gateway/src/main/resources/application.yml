@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 8080
+zuul:
+  routes:
+    movie-service: /movies-service/**
+    review-service: /review-service/**
